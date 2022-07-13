@@ -15,22 +15,15 @@ describe("index page", () => {
     })
 
     test("It displays a relevent title", () => {
-    
         const heading = document.getElementById("main-title");
-
         expect(heading).toBeTruthy;
-
-
-        expect(heading.textContent).toEqual("Howdy")
+        expect(heading.textContent).toEqual("Title")
 
     })
 
     test("It displays three divs.", () => {
-
         const divs = document.querySelectorAll("div");
-
         expect(divs).toBeTruthy;
-
         expect(divs.length).toEqual(3);
 
     })
