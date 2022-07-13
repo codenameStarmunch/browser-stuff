@@ -1,3 +1,11 @@
 h1 {
     color: chartreuse;
+    
+}
+
+.label:after{
+  content:'Hover to change.';
+}
+.label:hover:after{
+  content:'There ya go.';
 }

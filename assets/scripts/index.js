@@ -10,3 +10,14 @@ if (typeof exports != "undefined") {
         updateBitcoinButtonText
     }
 }  
+
+
+function switchColors(element)  
+        {  
+        links=document.getElementsByTagName("color-click") ;  
+        document.body.style.background = 'black' ;  
+        element.style.color='chartreuse' ;  
+        }  
+
+
+
