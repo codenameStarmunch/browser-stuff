@@ -28,12 +28,6 @@ describe("index page", () => {
 
     })
 
-    
-
-
-
-
-
 
 
 
